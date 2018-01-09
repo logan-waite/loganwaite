@@ -1,0 +1,47 @@
+<template name="Home">
+  <div id="profile-left" class="col-sm-3 section">
+    <div id="name">Logan Waite</div>
+    <div id="main-picture" class="picture">
+      <img src="http://www.androidpolice.com/wp-content/uploads/2015/05/nexus2cee_iron_man_by_rapsag-d65d74d.jpg">
+    </div>
+    <div id="social">
+      <a href="https://www.linkedin.com/in/logan-waite-95140b93/"><i class="fa fa-linkedin-square fa-lg"></i> LinkedIn</a>
+      <a href="https://github.com/lwaite2010"><i class="fa fa-github fa-lg"></i> Github</a>
+      <!-- <span><i class="fa fa-envelope fa-2x"></i> mailing</span> -->
+    </div>
+  </div>
+  <div id="profile-right" class="col-sm-9 section">
+    <div>
+      <div class='panel panel-default'>
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            Projects
+          </h3>
+        </div>
+        <div class="panel-body projects">
+          {{> projects }}
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class='panel-heading'>
+          <h3 class="panel-title">
+            Experience
+          </h3>
+        </div>
+        <div class="panel-body experience">
+          {{> experience }}
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            Certifications
+          </h3>
+        </div>
+        <div class="panel-body certifications">
+          {{> certifications }}
+        </div>
+      </div>
+    </div>
+  </div>
+</template>

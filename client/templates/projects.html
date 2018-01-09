@@ -1,0 +1,15 @@
+<template name="projects">
+  {{#each projectList }}
+  <div class="col-xs-4">
+    <a href="{{ project_address }}">
+      <div class="title">
+        {{ name }}
+      </div>
+      <img src="{{ preview_address }}" class="preview">
+      <div class="description">
+        {{ description }}
+      </div>
+    </a>
+  </div>
+  {{/each}}
+</template>
