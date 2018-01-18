@@ -13,7 +13,7 @@ Meteor.startup(() => {
       },
       {
         name : "iTOVi Checkout",
-        preview_address : "imgs/projects/checkout.png",
+        preview_address : "/public/imgs/projects/checkout.png",
         description : "Redesigned and implemented the checkout screen used by customers to buy their iTOVi scanners using Angular 1 and Phalcon.",
         project_address : "https://secure.itovi.com/order/checkout",
         date_added : new Date(),
@@ -43,7 +43,7 @@ Meteor.startup(() => {
         start_date : new Date("2017-03-06"),
         end_date : new Date(),
         experience_description : "job",
-        experience_pic : "/imgs/experiences/itovi_logo.png"
+        experience_pic : "/public/imgs/experiences/itovi_logo.png"
       }
     ]
     data.forEach(experience => Experiences.insert(experience));
